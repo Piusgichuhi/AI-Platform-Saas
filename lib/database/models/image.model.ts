@@ -9,7 +9,7 @@ import { ObjectId } from 'mongodb';
     secureUrl: URL; // required URL
     width?: number; // optional number
     height?: number; // optional number
-    config?: Record<string, any>; // optional object for custom config
+    config?: Record<string, string>; // optional object for custom config
     transformationUrl?: URL; // optional URL for transformation URL
     aspectRatio?: string; // optional string (could represent ratios like '16:9')
     color?: string; // optional string (could be a color hex code)

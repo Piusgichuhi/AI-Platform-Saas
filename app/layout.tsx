@@ -2,13 +2,10 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import {
   ClerkProvider,
-  SignInButton,
-  SignIn,
-  SignUp,
   UserButton
 } from '@clerk/nextjs'
 import "./globals.css";
-import { Variable } from "lucide-react";
+// import { Variable } from "lucide-react";
 
 
 const geistSans = localFont({

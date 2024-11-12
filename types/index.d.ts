@@ -25,7 +25,7 @@ declare type CreateUserParams = {
       transformationType: string;
       width: number;
       height: number;
-      config: any;
+      config: string | number | object;
       secureURL: string;
       transformationURL: string;
       aspectRatio: string | undefined;
@@ -44,7 +44,7 @@ declare type CreateUserParams = {
       transformationType: string;
       width: number;
       height: number;
-      config: any;
+      config: string | number | object;
       secureURL: string;
       transformationURL: string;
       aspectRatio: string | undefined;
@@ -128,7 +128,7 @@ declare type CreateUserParams = {
   };
   
   declare type TransformedImageProps = {
-    image: any;
+    image: string | number | object;
     type: string;
     title: string;
     transformationConfig: Transformations | null;
